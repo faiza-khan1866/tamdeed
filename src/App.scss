@@ -1,0 +1,131 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./styles/variables";
+@import "./styles/mixins";
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+@import 'flag-icon-css/css/flag-icon.min.css';
+// @import "~react-image-gallery/styles/scss/image-gallery.scss";
+// @import "~video-react/styles/scss/video-react";
+
+//layouts
+@import "./layouts/Layout.scss";
+@import "./layouts/Navbar/Navbar.scss";
+@import "./layouts/Footer/Footer.scss";
+
+// error404 section
+@import "./sections/Error404/error";
+//components
+@import "./components/ButtonTheme/ButtonTheme.scss";
+@import "./components/BreadCrumbs/BreadCrumbs.scss";
+@import "./components/BottomTabNavigator/BottomTabNavigator.scss";
+@import "./components/ReviewCard/ReviewCard.scss";
+@import "./components/Modals/ApplyNow/ApplyNow.scss";
+@import "./components/BackToTop/BackToTop.scss";
+@import "./components/Modals/Documents/Documents";
+
+// sections **********************
+
+//home page
+
+@import "./sections/home/banner/Banner.scss";
+@import "./sections/home/partners/Partners.scss";
+@import "./sections/home/about-tamdeed/AboutTamdeed.scss";
+@import "./sections/home/industries/Industries.scss";
+@import "./sections/home/solution-portfolio/Portfolio.scss";
+@import "./sections/home/media-center/MediaCenter.scss";
+
+//About page
+
+@import "./sections/about-us/about-banner/AboutBanner.scss";
+@import "./sections/about-us/overview/Overview.scss";
+@import "./sections/about-us/core-values/Values.scss";
+@import "./sections/about-us/executive-management/Management.scss";
+@import "./sections/about-us/b-units/BusinessUnits.scss";
+@import "./sections/about-us/salesforce-gtm/Gtm.scss";
+@import "./sections/about-us/join-tamdeed/JoinTamdeed.scss";
+@import "./sections/about-us/partners/Partners.scss";
+
+//Career page
+
+@import "./sections/career/career-banner/CareerBanner.scss";
+@import "./sections/career/join-team/JoinTeam.scss";
+@import "./sections/career/intro/Intro.scss";
+@import "./sections/career/open-positions/Positions.scss";
+
+//Contact page
+
+@import "./sections/contact-us/contact-banner/ContactBanner.scss";
+@import "./sections/contact-us/contact-form/ContactForm.scss";
+@import "./sections/contact-us/contact-map/ContactMap.scss";
+
+//Industries page
+
+@import "./sections/industries/industries-banner/IndustriesBanner.scss";
+@import "./sections/industries/industries/Industries.scss";
+
+//Media Center page
+
+@import "./sections/media/media-banner/MediaBanner.scss";
+@import "./sections/media/latest-updates/LatestUpdates.scss";
+@import "./sections/media/in-the-news/News.scss";
+
+//Insights page
+
+@import "./sections/insights/insights-banner/InsightsBanner.scss";
+@import "./sections/insights/refrence-projects/ReferenceProjects.scss";
+
+//Solution & Service page
+
+@import "./sections/solution-service/ss-banner/SolutionServiceBanner.scss";
+@import "./sections/solution-service/solution-pillars/SolutionPillars.scss";
+@import "./sections/solution-service/tamdeed-service/TamdeedService.scss";
+@import "./sections/solution-service/managed-service/ManagedService.scss";
+@import "./sections/solution-service/telecom-networking/TelecomNetworking.scss";
+@import "./sections/solution-service/data-center/DataCenter.scss";
+
+// ********************** sections
+
+//global setting
+
+.container {
+  @media #{$xxl} {
+    max-width: 85% !important;
+  }
+}
+
+// font English Version
+
+@font-face {
+  font-family: "Neo-Tech-Alt-Medium";
+  src: url("./assets/fonts/NeoTechAltMedium.TTF");
+}
+
+@font-face {
+  font-family: "Neo-Tech-Alt-Light";
+  src: url("./assets/fonts/NeoTechAltLight.TTF");
+}
+
+@font-face {
+  font-family: "Neo-Tech-Alt-Regular";
+  src: url("./assets/fonts/NeoTechAltRegular.TTF");
+}
+
+* {
+  font-family: 'Neo-Tech-Alt-Regular', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Neo-Tech-Alt-Medium', sans-serif;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

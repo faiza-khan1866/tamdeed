@@ -1,0 +1,62 @@
+.AboutPartners{
+    padding: 5rem 0;
+    background-image:url("../../../assets/images/backgrounds/partnerbg.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    // background-size: cover;
+    @media #{$sm} {
+        padding: 2rem 0;
+    }
+    .Title{
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+        transform: rotate(-90deg);
+        text-transform: uppercase;
+        color: $texts-color2;
+        @media #{$sm} {
+            font-size: 22px;
+            transform: rotate(0deg);
+            margin-bottom: 1rem;
+        }
+    }
+    .colmblspace{
+        @media #{$sm} {
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mblImg{
+            @media #{$sm} {
+            width: 70%;
+            }
+        }
+    }
+    .btnStyle{
+        border: 0;
+        background: $bg-colors;
+        border-radius: 56px;
+        color: $white;
+        padding: 0.5rem 2rem;
+        margin-top: 2rem;
+        &:hover{
+            color: $bg-colors;
+            border: 1px solid $bg-colors; 
+            background: $white;
+        }
+    }
+}
+.partnerLogoDiv {
+    padding: 15px !important;
+    text-align: center !important;
+}
+
+.partnerLogoImg {
+    max-width: 70% !important;
+    filter: grayscale(100);
+    cursor: pointer;
+}
+.partnerLogoImg:hover {
+    filter: grayscale(0);
+}

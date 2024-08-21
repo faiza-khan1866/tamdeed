@@ -1,0 +1,44 @@
+.join-team{
+    padding: 2rem 18rem 4rem 18rem;
+    background: $backgroundsColors;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media #{$sm, $md} {
+        padding: 3rem 1rem;
+    }
+    @media #{$md} {
+        padding: 3rem 2rem;
+    }
+    @media #{$lg} {
+        padding: 3rem 5rem;
+    }
+    .title{
+        color: $white;
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .subtitle{
+        color: $white;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .btnStyle{
+        border: 0;
+        background: $white;
+        border-radius: 56px;
+        color: $bg-colors;
+        padding: 0.5rem 2rem;
+        margin-top: 1rem;
+        &:hover{
+            border: 1px solid $white; 
+            background: $backgroundsColors;
+            color: $white;
+        }
+    }
+}

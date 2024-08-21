@@ -1,0 +1,129 @@
+.footer-Wrape {
+  color: $white;
+  // margin-top: 3rem;
+  padding-top: 8rem;
+  background-color: $backgroundsColors;
+  clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+  @media #{$sm} {
+    padding-top: 4rem;
+    clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  .socialIcons{
+    width: 25px;
+    height: 25px;
+    background: $white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    a{
+      color: $backgroundsColors;
+      display: flex !important;
+      .iconSize{
+      font-size: 15px;
+      }
+    }
+  }
+  .form-group {
+    margin-bottom: 0.5rem;
+}
+
+  .hashLinkStyling{
+    color: $white;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    padding-top: 0.5rem;
+    &:hover{
+      font-weight: bold;
+    }
+    @media #{$sm,$xsm,$tiny} {
+      font-size: 14px;
+      overflow-wrap: break-word;
+    }
+    @media #{$md} {
+      font-size: 18px;
+      overflow-wrap: break-word;
+    }
+  }
+
+  .FooterContact{
+    font-weight: 300;
+    font-size: 15px;
+    border-bottom: 1px solid $white;
+    color: $white;
+  }
+
+  .nav-link{
+    color: $white;
+    padding-top: 0.5rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .listp{
+    padding-top: 30px !important;
+    @media #{$md} {
+      padding-top: 0 !important;
+    }
+    @media #{$sm,$xsm,$tiny} {
+      padding-top: 0 !important;
+    }
+  }
+  .fdeco{
+    text-decoration: none !important;
+    @media #{$sm,$xsm,$tiny} {
+      font-size: 14px !important;
+      overflow-wrap: break-word;
+    }
+    @media #{$md} {
+      font-size: 18px !important;
+      overflow-wrap: break-word;
+    }
+  }
+  .fdeco:hover{
+    font-weight: bold;
+  }
+  .FooterHeading{
+    font-size: 18px;
+    font-weight: 400;
+    color: $white;
+    @media #{$sm,$xsm,$tiny} {
+      font-size: 16px !important;
+      margin-top: 1rem;
+    }
+    @media #{$md} {
+      font-size: 17px !important;
+      margin-top: 1rem !important;
+    }
+  }
+  .detail{
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
+
+.footer-bottom{
+  margin-top: 2rem;
+  background-color: $texts-color2;
+  padding: .7rem;
+  p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: $white;
+    a{
+      color: $white;
+    }
+  }
+  .socialIcon{
+    @media #{$sm} {
+      text-align: center !important;
+    }
+  }
+  .copyRight{
+    color: $white;
+    @media #{$sm} {
+      text-align: center !important;
+    }
+  }
+}

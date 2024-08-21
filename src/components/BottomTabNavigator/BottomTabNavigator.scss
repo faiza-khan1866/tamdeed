@@ -1,0 +1,29 @@
+.bottom-navigator-wrapper {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .bottom-navigator-wrapper {
+    display: block;
+    margin-top: 56px;
+    z-index: 100;
+    .MuiBottomNavigation-root {
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      z-index: 1500;
+      padding-top: 1.5rem;
+        .iconSize{
+          font-size: 20px;
+          color: black;
+          margin-right: 0.2rem;
+        }
+        .textSize{
+          color: black;
+          text-decoration: none;
+        }
+    }
+  }
+}

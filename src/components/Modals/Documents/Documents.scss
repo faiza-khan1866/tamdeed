@@ -1,0 +1,69 @@
+.Documents {
+  z-index: 1111;
+    .SubTitle{
+      h2{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: justify;
+        color: $bg-colors;
+        @media #{$sm} {
+          font-size: 18px;
+        }
+      }
+      p{
+        color: $bg-colors;
+        font-size: $sub-fonts;
+        text-align: justify;
+        font-weight: 500;
+        margin-bottom: 0.3rem;
+        @media #{$sm} {
+          font-size: 17px;
+        }
+      }
+      li{
+        color: $bg-colors;
+        font-size: $sub-fonts;
+        text-align: justify;
+        font-weight: 500;
+        margin-bottom: 0.3rem;
+        @media #{$sm} {
+          font-size: 17px;
+        }
+      }
+    }
+    .modalIconArabic{
+      transform: rotate(180deg);
+      margin-left: 0 !important;
+      margin-right: 1rem;
+    }
+    .modalIcon{
+      background: $bg-colors;
+      color: $white;
+      padding: 1.5rem;
+      border-radius: 100%;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .modal-body {
+      padding: 1.5rem 3rem;
+      @media #{$sm} {
+        padding: 1.5rem 2rem;
+      }
+    }
+    .modal-content{
+      border-radius: 60px;
+    }
+}
+
+.agsModalDir{
+  direction: ltr;
+}
+.agsModalDirArabic{
+  direction: rtl;
+}

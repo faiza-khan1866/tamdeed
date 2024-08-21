@@ -1,0 +1,67 @@
+.latestUpdates{
+    margin-top: 6rem;
+    @media #{$sm, $md, $lg} {
+        margin-top: 2rem;
+    }
+    .title{
+        color: $texts-color2;
+        font-size: 25px;
+        font-weight: 400;
+        // margin-bottom: 2rem;
+    }
+    .bg-color{
+        background: $backgroundsColors;
+        padding: 1rem 0;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.14);
+        margin-right: 1rem;
+        @media #{$sm} {
+            margin: 15px 0;
+        }
+        @media #{$md} {
+            margin-right: 0rem;;
+        }
+    }
+    .bg-color2{
+        background: $backgroundsColors;
+    }
+    // .iconImg{
+    // }
+    .btnStyle{
+        border: 0;
+        border-bottom: 1px solid $white;
+        background: transparent;
+        color: $white;
+    }
+    .latestUpdateTitle{
+        color: $white;
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 0.5rem;
+    }
+    .subtitle{
+        color: $white;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .MuiPaginationItem-page.Mui-selected {
+        background-color: $backgroundsColors;
+    }
+    .MuiPaginationItem-page:hover {
+        background-color: $backgroundsColors;
+    }
+    .MuiPaginationItem-root {
+        color: white;
+        background: #C4C4C4;
+    }
+    .css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root:hover {
+        background-color: $backgroundsColors;
+    }
+}
+.rightCard {
+    @media (max-width: 991px) {
+        padding-left: 0px !important;
+    }
+    @media (max-width: 767px) {
+        padding-left: 15px !important;
+    }
+}
